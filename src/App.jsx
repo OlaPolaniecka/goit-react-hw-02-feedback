@@ -1,16 +1,11 @@
+import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
+import Statistics from './components/Statistics/Statistics';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React is good
+    <div>
+      <FeedbackOptions />
+      <Statistics />
     </div>
   );
 };

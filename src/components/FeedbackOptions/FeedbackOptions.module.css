@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.btn_good {
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn_neutral {
+  color: orange;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn_bad {
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
